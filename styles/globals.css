@@ -16,6 +16,27 @@ body {
   background-color: rgb(255, 255, 255) !important;
 }
 
+/* our partners */
+.partner_main > h3{
+color: #D40000 !important;
+}
+
+.partner_img_sec{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.partner_img_sec:hover img {
+  transform: scale(1.6);
+  transition: transform 0.8s ease;
+}
+
+
+
+
+
+
 /* body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(

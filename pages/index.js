@@ -11,6 +11,7 @@ import Newfooter from '@/Components/Newfooter/Newfooter'
 import Videosec from '@/Components/Landingpage/Videosec'
 import Workflownew from '@/Components/Landingpage/Workflownew'
 import Letsconnect from '@/Components/Letsconnect/Letsconnect'
+import OurPartners from '@/Components/OurPartners/OurPartners'
 
 // export async function getStaticProps() {
 //   const res = await fetch('https://jsonplaceholder.typicode.com/posts')
@@ -71,6 +72,7 @@ export default function Home({ posts }) {
         <Webdevsec />
         <Parallex />
         <Videosec />
+        <OurPartners/>
         <Industries />
         <Workflownew />
         <Letsconnect />

@@ -15,7 +15,7 @@ function Video() {
         </div>
       </div>
 
-      <div className='col-md-12 video-container1 p-0 display_pc' style={{ height: '100vh' }}>
+      <div className='col-md-12 video-container1 p-0 display_pc' style={{ height: '70vh' }}>
         <video loop autoPlay muted className='video_main2' style={{ objectFit: 'fill' }}>
           <source src='https://1864597015.rsc.cdn77.org/selteqreact/video/mob.mp4' type="video/mp4" />
         </video>
