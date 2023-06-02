@@ -43,7 +43,7 @@ function Parallex() {
       <div className="col-md-12 text-center background_color_white display_h">
 
         <h3 data-aos="zoom-in" className={styles.landing_create}><b>Portfolio</b></h3>
-        <p data-aos="zoom-in" className="Our Portfolio Lives Up to Our Claims of Professional Quality While Still Being User-Friendly">
+        <p data-aos="zoom-in" className="">
           Our Portfolio Lives Up to Our Claims of Professional Quality While Still Being User-Friendly
         </p>
 
