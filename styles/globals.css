@@ -17,14 +17,18 @@ body {
 }
 
 /* our partners */
-.partner_main > h3{
-color: #D40000 !important;
+.partner_main>h3 {
+  color: #D40000 !important;
 }
 
-.partner_img_sec{
+.partner_img_sec {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.partner_img_sec img {
+  transition: transform 1s ease;
 }
 
 .partner_img_sec:hover img {
