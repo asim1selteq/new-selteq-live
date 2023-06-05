@@ -8,7 +8,7 @@ const OurPartners = () => {
             <div className='container display_h partner_main mb-b py-5'>
                 <h1 data-aos="zoom-in" className={`${styles.landing_create} text-center`}>Our Partners</h1>
                 <div className={`row partner_section pt-2`}>
-                    <div className="col partner_img_sec">
+                    <div className="col partner_img_sec" >
                         <img src="/Assets/Images/microsoft.png" className="img-fluid" alt="Image 1" />
                     </div>
                     <div className="col partner_img_sec">

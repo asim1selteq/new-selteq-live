@@ -1301,8 +1301,14 @@ video {
 
 .banner_footer_main_heading:hover {
   color: rgb(255, 13, 13);
-  font-size: 32px;
+  font-size: 22px;
+  font-weight: bold;
   opacity: 1;
+  transition: .5s;
+}
+
+.banner_footer_main .desc {
+  font-size: 12px !important;
 }
 
 .banner_footer_main_heading_mbl {
