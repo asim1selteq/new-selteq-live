@@ -28,20 +28,24 @@ function Ourclientsol() {
       <p className='text_white_bold_our'> Our Clients Always<br /> Speak Highly of Our<br /> Services</p>
 
       <Carousel
-        // showDots={true}
+        showDots={true}
         infinite={true}
         autoPlaySpeed={1000}
         keyBoardControl={true}
         customTransition="all 1s"
         transitionDuration={2000}
-        // dotListClass="custom-dot-list-style4"
+        dotListClass="custom-dot-list-style4"
         removeArrowOnDeviceType={["tablet", "mobile"]}
         responsive={responsive}>
-        {/* <div className='col-md-12 pt-4'>
-       <img src="https://1864597015.rsc.cdn77.org/selteq/images/t2.png" className='img-fluid ' />
-       </div> */}
+
         <div className='col-md-12 pt-4'>
-          <img src="https://1864597015.rsc.cdn77.org/selteq/images/t1.png" className='img-fluid ' />
+          <img src="/Assets/Images/clark.png" className='img-fluid ' />
+        </div>
+        <div className='col-md-12 pt-4'>
+          <img src="/Assets/Images/richard.png" className='img-fluid ' />
+        </div>
+        <div className='col-md-12 pt-4'>
+          <img src="/Assets/Images/edward.png" className='img-fluid ' />
         </div>
         {/* <div className='col-md-12 pt-4'>
        <img src='https://1864597015.rsc.cdn77.org/selteqreact/mobimg/solutions.png' className='img-fluid ' />

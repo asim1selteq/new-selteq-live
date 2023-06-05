@@ -8,6 +8,8 @@ import Steps from '@/Components/Edtec/Steps';
 import Solutionsmain from '@/Components/MobileDesigns/EdTechmob/Solutionsmain';
 import Patientmonitoring from '@/Components/MobileDesigns/EdTechmob/Patientmonitoring';
 import Pioneering from '@/Components/MobileDesigns/EdTechmob/Pioneering';
+import Ourclients from '../../Components/FinTech/Ourclients';
+import Ourclientsol from '@/Components/MobileDesigns/Solutions/Ourclientsol';
 
 export default function EdTechm() {
   return (
@@ -30,7 +32,7 @@ export default function EdTechm() {
           <Banner />
           <Bannersol />
           <Steps />
-          {/* <Ourclients /> */}
+          <Ourclients />
           <Newfooter />
         </div>
         <div className='display_pc'>
@@ -39,7 +41,7 @@ export default function EdTechm() {
           <Solutionsmain />
           <Patientmonitoring />
           <Pioneering />
-          {/* <Ourclientsol /> */}
+          <Ourclientsol />
           <Newfooter />
         </div>
       </main>

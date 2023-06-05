@@ -146,7 +146,7 @@ function Productrunning() {
                             </div>
                         </div>
                         <div className='col-md-12 padding_sol_1'>
-                            <button onClick={() => contact()} className='btn btn-danger w-100 button_style_red'>
+                            <button onClick={() => contact()} className='btn btn-danger w-100 button_style_red py-2 px-4 animated_button_banner'>
                                 Book Consultation
                             </button>
                         </div>

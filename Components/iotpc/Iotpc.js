@@ -23,10 +23,14 @@ function Iotpc(props) {
                   {props.object.main_heading_description}
                 </p>
 
-                <button className="btn btn-danger background_button_s1" onClick={() => contact()}>
+                {/* <button className="btn btn-danger background_button_s1 button_animated_effects" onClick={() => contact()}>
                   {" "}
                   BOOK CONSULTATION{" "}
-                </button>
+                </button> */}
+                <br />
+
+                <button class="animated_button_banner" onClick={() => contact()}> BOOK CONSULTATION</button>
+
               </div>
             </div>
           </div>
@@ -76,10 +80,11 @@ function Iotpc(props) {
                             </p>
                           </div>
                           <div className="col-md-12 text-center">
-                            <button className="btn btn-danger background_button_s2" onClick={() => contact()}>
+                            {/* <button className="btn btn-danger background_button_s2" onClick={() => contact()}>
                               {" "}
                               BOOK CONSULTATION{" "}
-                            </button>
+                            </button> */}
+                            <button class="animated_button_banner my-5 py-3 px-5" onClick={() => contact()}> BOOK CONSULTATION</button>
                           </div>
                         </div>
                       )}
@@ -171,10 +176,7 @@ function Iotpc(props) {
                   </div>
                 </div>
                 <div className="col-md-12 text-center pt-3">
-                  <button className="btn btn-danger background_button_s4" onClick={() => contact()}>
-                    {" "}
-                    BOOK CONSULTATION{" "}
-                  </button>
+                  <button class="animated_button_banner my-5 py-3 px-5" onClick={() => contact()}> BOOK CONSULTATION</button>
                 </div>
               </div>
             </div>
@@ -265,10 +267,10 @@ function Iotpc(props) {
 
                         <div className="col-md-12 px-5 text-right">
                           <div className="col-md-12">
-                            <button className="btn btn-danger background_button_s2" onClick={() => contact()}>
+                            {/* <button className="btn btn-danger background_button_s2" onClick={() => contact()}>
                               {" "}
                               BOOK CONSULTATION{" "}
-                            </button>
+                            </button> */}
                           </div>
                         </div>
                       </div>
@@ -277,6 +279,9 @@ function Iotpc(props) {
                 </div>
               </div>
             ) : null}
+            <div className="d-flex justify-content-end">
+              <button class="animated_button_banner my-5 py-3 px-5" onClick={() => contact()}> BOOK CONSULTATION</button>
+            </div>
           </div>
         </>
       ) : (

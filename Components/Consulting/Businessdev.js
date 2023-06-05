@@ -27,7 +27,7 @@ function Businessdev() {
                   process automation (RPA) and artificial intelligence (AI).
                   Reduce manual effort, minimize errors, and enhance
                   productivity across your organization.
-                </p>  
+                </p>
               </div>
               <div className="col-md-12 pt-3">
                 <p className="color_white1 mb-1 pt-0">Finance Effectiveness</p>
@@ -69,11 +69,11 @@ function Businessdev() {
           <div className="col-md-12 text-center pt-5">
             <button
               onClick={() => contact()}
-              className="btn btn-danger btn-lg font_color_size"
+              className="btn btn-danger btn-lg font_color_size py-2 animated_button_banner"
             >
               {' '}
-              Book Consultation{' '}
-              <i id="arrow_icon" class="fas fa-arrow-right"></i>
+              Book Consultation
+              <i id="arrow_icon" className="fas fa-arrow-right"></i>
             </button>
           </div>
         </div>

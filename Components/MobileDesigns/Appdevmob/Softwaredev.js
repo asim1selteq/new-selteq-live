@@ -14,7 +14,7 @@ function Softwaredev() {
         <p className='text_size_baner'><b>CROSS-PLATFORM APP DEVELOPMENT</b></p>
             <p>Fully functional, smart and stylish apps to leave your customers awestruck</p>
             <div className='text-center '>
-             <button onClick={()=>contact()} className='btn btn-danger background_button_soft1'>
+             <button onClick={()=>contact()} className='btn btn-danger background_button_soft1 animated_button_banner py-2 px-5'>
                 Explore
             </button>
             </div>

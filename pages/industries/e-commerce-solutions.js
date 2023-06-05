@@ -8,6 +8,8 @@ import Steps from '@/Components/Ecomm/Steps';
 import Pioneering from '@/Components/MobileDesigns/Ecommerecemob/Pioneering';
 import Patientmonitoring from '@/Components/MobileDesigns/Ecommerecemob/Patientmonitoring';
 import Solutionsmain from '@/Components/MobileDesigns/Ecommerecemob/Solutionsmain';
+import Ourclients from '../../Components/FinTech/Ourclients';
+import Ourclientsol from '@/Components/MobileDesigns/Solutions/Ourclientsol';
 
 export default function Ecommerece() {
   return (
@@ -30,7 +32,7 @@ export default function Ecommerece() {
           <Banner />
           <Bannersol />
           <Steps />
-          {/* <Ourclients /> */}
+          <Ourclients />
           <Newfooter />
         </div>
         <div className='display_pc'>
@@ -39,7 +41,7 @@ export default function Ecommerece() {
           <Solutionsmain />
           <Patientmonitoring />
           <Pioneering />
-          {/* <Ourclientsol /> */}
+          <Ourclientsol />
           <Newfooter />
         </div>
       </main>

@@ -51,7 +51,7 @@ function Newcontactus() {
                     <span className="icon_style_contact"> <i class="fab fa-rocketchat"></i></span>
                     <h5 className="mt-3 talk_text">CUSTOMER SUPPORT</h5>
                     <h5 className="px-5 contact_text pt-3"> Get in touch – let us create the digital brain of your organisation</h5>
-                    <button className="btn btn-dark FONT_B_T px-4 py-2 mt-3"> CONTACT SUPPORT </button>
+                    <button className="btn btn-dark FONT_B_T animated_button_banner px-4 py-2 mt-3"> CONTACT SUPPORT </button>
                     </div>
                 {/* <img className={styles.with_expert_img} src="https://1864597015.rsc.cdn77.org/selteqreact/images/expert.jpg"  /> */}
                 </div>

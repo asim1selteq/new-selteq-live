@@ -8,6 +8,8 @@ import Steps from '@/Components/Errp/Steps';
 import Solutionsmain from '@/Components/MobileDesigns/Erpmob/Solutionsmain';
 import Patientmonitoring from '@/Components/MobileDesigns/Erpmob/Patientmonitoring';
 import Pioneering from '@/Components/MobileDesigns/Erpmob/Pioneering';
+import Ourclients from '../../Components/FinTech/Ourclients';
+import Ourclientsol from '@/Components/MobileDesigns/Solutions/Ourclientsol';
 
 export default function Erp() {
   return (
@@ -30,7 +32,7 @@ export default function Erp() {
           <Banner />
           <Bannersol />
           <Steps />
-          {/* <Ourclients /> */}
+          <Ourclients />
           <Newfooter />
         </div>
         <div className='display_pc'>
@@ -39,7 +41,7 @@ export default function Erp() {
           <Solutionsmain />
           <Patientmonitoring />
           <Pioneering />
-          {/* <Ourclientsol /> */}
+          <Ourclientsol />
           <Newfooter />
         </div>
       </main>

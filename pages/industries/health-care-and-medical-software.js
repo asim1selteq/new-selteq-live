@@ -8,6 +8,8 @@ import Steps from '@/Components/Mdtech/Steps';
 import Solutionsmain from '@/Components/MobileDesigns/Medtechmob/Solutionsmain';
 import Patientmonitoring from '@/Components/MobileDesigns/Medtechmob/Patientmonitoring';
 import Pioneering from '@/Components/MobileDesigns/Medtechmob/Pioneering';
+import Ourclients from '../../Components/FinTech/Ourclients';
+import Ourclientsol from '@/Components/MobileDesigns/Solutions/Ourclientsol';
 
 export default function Medtechm() {
   return (
@@ -29,7 +31,7 @@ export default function Medtechm() {
           <Banner />
           <Bannersol />
           <Steps />
-          {/* <Ourclients /> */}
+          <Ourclients />
           <Newfooter />
         </div>
         <div className='display_pc'>
@@ -38,7 +40,7 @@ export default function Medtechm() {
           <Solutionsmain />
           <Patientmonitoring />
           <Pioneering />
-          {/* <Ourclientsol /> */}
+          <Ourclientsol />
           <Newfooter />
         </div>
       </main>

@@ -1,7 +1,6 @@
 import Head from 'next/head'
 import styles from "../../styles/index.module.css";
 import Bannersol from '../../Components/FinTech/Bannersol';
-import Ourclients from '../../Components/FinTech/Ourclients';
 import Newheader from '@/Components/Newheader/Newheader';
 import Newfooter from '@/Components/Newfooter/Newfooter';
 import Banner from '@/Components/FinTech/Banner';
@@ -9,6 +8,7 @@ import Steps from '@/Components/FinTech/Steps';
 import Solutionsmain from '@/Components/MobileDesigns/Solutions/Solutionsmain';
 import Patientmonitoring from '@/Components/MobileDesigns/Solutions/Patientmonitoring';
 import Pioneering from '@/Components/MobileDesigns/Solutions/Pioneering';
+import Ourclients from '../../Components/FinTech/Ourclients';
 import Ourclientsol from '@/Components/MobileDesigns/Solutions/Ourclientsol';
 
 export default function Bankfinance() {

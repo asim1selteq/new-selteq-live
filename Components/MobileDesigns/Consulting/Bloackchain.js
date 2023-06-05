@@ -9,9 +9,9 @@ function Bloackchain() {
   return (
     <div className="px-0 background_block_chain">
       <div className="col-md-12 pt-3 ">
-      <h4 className="color_heading_white pb-4">
-        End-to-End Business Solutions
-      </h4>
+        <h4 className="color_heading_white pb-4">
+          End-to-End Business Solutions
+        </h4>
         <p className="text_head_color mb-2">Business Process Automation</p>
         <p className="sub_text_head_color">
           Develop custom solutions utilizing robotic process automation (RPA)
@@ -48,10 +48,7 @@ function Bloackchain() {
       </div>
 
       <div className="col-md-12 cust_pad">
-        <button
-          onClick={() => contact()}
-          className="btn btn-danger w-100 background_button_red"
-        >
+        <button onClick={() => contact()} className='btn btn-danger w-100 background_color_red_new py-2 px-4 animated_button_banner'>
           BOOK CONSULTATION
         </button>
       </div>

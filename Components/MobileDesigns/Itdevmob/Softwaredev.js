@@ -13,7 +13,7 @@ function Softwaredev() {
         <p className='text_size_baner'><b>DEDICATED RESOURCES</b></p>
             <p>A team of developers working solely for you and delivering quality services</p>
             <div className='text-center '>
-            <button onClick={()=>contact()}  className='btn btn-danger background_button_soft1'>
+            <button onClick={()=>contact()}  className='btn btn-danger background_button_soft1 animated_button_banner py-2 px-5'>
                 Explore
             </button>
             </div>

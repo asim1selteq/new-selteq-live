@@ -29,7 +29,7 @@ function CaseStudies() {
                         <img src="https://1864597015.rsc.cdn77.org/selteqreact/images/expertt.png" className="img-fluid"  />
                         <h3 className={styles.heading_casestudy_p}><b>EXPERT</b></h3>
                         <h6 className={styles.sub_heading_casestudy}>Expert is an on-demand service app that provides multitude of services bookable through one convenient interface.</h6>
-                        <button onClick={()=>plexarr()}  className="btn btn-danger px-4 py-3 mt-3"> CASE STUDY </button>
+                        <button onClick={()=>plexarr()}  className="btn btn-danger px-4 py-3 mt-3 animated_button_banner"> CASE STUDY </button>
                         </div>
                     </div>
                     <div className="col-md-6 margin_t_expert">
@@ -37,7 +37,7 @@ function CaseStudies() {
                         <img src="https://1864597015.rsc.cdn77.org/selteqreact/images/laptop1.png" className="img-fluid"  />
                         <h3 className={styles.heading_casestudy_p}><b>PLEXARR</b></h3>
                         <h6 className={styles.sub_heading_casestudy}>A high-end CRM system for businesses of all sizes.</h6>
-                        <button onClick={()=>livechat()}  className="btn btn-danger px-4 py-3 mt-3"> CASE STUDY </button>
+                        <button onClick={()=>livechat()}  className="btn btn-danger px-4 py-3 mt-3 animated_button_banner"> CASE STUDY </button>
                         </div>
                     </div>
                 </div>
