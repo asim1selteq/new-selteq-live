@@ -69,13 +69,8 @@ function Businessdev() {
             </div>
           </div>
           <div className="col-md-12 text-center pt-5">
-            <button
-              onClick={() => contact()}
-              className="btn btn-danger btn-lg font_color_size py-2 animated_button_banner"
-            >
-              {' '}
+            <button onClick={() => contact()} className='btn btn-danger w-100 button_style_red py-2 px-4 animated_button_banner'>
               Book Consultation
-              <i id="arrow_icon" className="fas fa-arrow-right"></i>
             </button>
           </div>
         </div>
