@@ -128,7 +128,8 @@ function Banner() {
                 <Link href="/contact-us">
                   {' '}
                   <button className="btn btn-danger background_button_soft1 animated_button_banner py-2 px-5">
-                    Explore
+                    <span class="button-text">Explore</span>
+                    <span class="animation-layer"></span>
                   </button>
                 </Link>
               </div>

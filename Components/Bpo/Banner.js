@@ -65,7 +65,7 @@ function Banner() {
               <h6 className="display_pc font_wi_banner">Using advanced technology with smooth operations</h6>
               {/* <h2 className={styles.font_security}>AND AGILITY</h2> */}
               <p className="size_12 display_h">
-              Using advanced technology with smooth operations
+                Using advanced technology with smooth operations
               </p>
               <Link href="/contact-us">
                 {' '}
@@ -91,7 +91,7 @@ function Banner() {
               <h6 className="display_pc font_wi_banner">Proven expertise in multiple technologies</h6>
               {/* <h2 className={styles.font_security}>AND SECURITY</h2> */}
               <p className="size_12 display_h">
-              Proven expertise in multiple technologies.
+                Proven expertise in multiple technologies.
               </p>
               <Link href="/contact-us">
                 {' '}
@@ -126,7 +126,8 @@ function Banner() {
                 <Link href="/contact-us">
                   {' '}
                   <button className="btn btn-danger background_button_soft1 animated_button_banner py-2 px-5">
-                    Explore
+                    <span class="button-text">Explore</span>
+                    <span class="animation-layer"></span>
                   </button>
                 </Link>
               </div>

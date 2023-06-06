@@ -8,11 +8,11 @@ function Bloackchain() {
   };
   return (
     <div className="px-0 background_block_chain">
-       <div className="col-md-12 text-center pt-3 pb-4">
-            <h4 className="color_heading_white">
-              Partner with the Metaverse Experts
-            </h4>
-          </div>
+      <div className="col-md-12 text-center pt-3 pb-4">
+        <h4 className="color_heading_white">
+          Partner with the Metaverse Experts
+        </h4>
+      </div>
       <div className="col-md-12">
         <p className="text_head_color mb-2">Expertise and Experience</p>
         <p className="sub_text_head_color">
@@ -45,8 +45,9 @@ function Bloackchain() {
       </div>
 
       <div className="col-md-12 cust_pad">
-      <button onClick={() => contact()} className='btn btn-danger w-100 background_color_red_new py-2 px-4 animated_button_banner'>
-          BOOK CONSULTATION
+        <button onClick={() => contact()} className='btn btn-danger w-100 background_color_red_new py-2 px-4 animated_button_banner'>
+          <span class="button-text">BOOK CONSULTATION</span>
+          <span class="animation-layer"></span>
         </button>
       </div>
     </div>

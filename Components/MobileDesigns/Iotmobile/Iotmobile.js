@@ -26,7 +26,10 @@ function Iotmobile(props) {
                   {" "}
                   BOOK CONSULTATION{" "}
                 </button> */}
-                <button class="animated_button_banner mb-5 py-2 px-3" onClick={() => contact()}> BOOK CONSULTATION</button>
+                <button class="animated_button_banner mb-5 py-2 px-3" onClick={() => contact()}>
+                  <span class="button-text">BOOK CONSULTATION</span>
+                  <span class="animation-layer"></span>
+                </button>
 
               </div>
             </div>
@@ -266,7 +269,10 @@ function Iotmobile(props) {
                   </div>
                 </div>
                 <div className="col-md-12 pt-3">
-                  <button class="animated_button_banner my-5 py-3 px-5" onClick={() => contact()}> BOOK CONSULTATION</button>
+                  <button class="animated_button_banner my-5 py-3 px-5" onClick={() => contact()}>
+                    <span class="button-text">BOOK CONSULTATION</span>
+                    <span class="animation-layer"></span>
+                  </button>
                 </div>
               </div>
             </div>
@@ -428,7 +434,10 @@ function Iotmobile(props) {
                       </div>
                     </div> */}
                         <div className="col-md-12 d-flex justify-content-center align-items-center">
-                        <button class="animated_button_banner mt-5 mb-5 py-3 px-5" onClick={() => contact()}> BOOK CONSULTATION</button>
+                          <button class="animated_button_banner mt-5 mb-5 py-3 px-5" onClick={() => contact()}>
+                            <span class="button-text">BOOK CONSULTATION</span>
+                            <span class="animation-layer"></span>
+                          </button>
                         </div>
                       </div>
                     </div>

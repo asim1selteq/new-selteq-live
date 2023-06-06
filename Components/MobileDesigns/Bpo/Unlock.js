@@ -46,7 +46,8 @@ function Unlock() {
       </div>
       <div className='col-md-12 px-0 pt-3 pb-4'>
         <button onClick={() => contact()} className='btn btn-danger w-100 background_color_red_new py-2 px-4 animated_button_banner'>
-          BOOK CONSULTATION
+          <span class="button-text">BOOK CONSULTATION</span>
+          <span class="animation-layer"></span>
         </button>
       </div>
     </div>
