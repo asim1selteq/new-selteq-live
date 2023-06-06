@@ -6,7 +6,7 @@ import Link from 'next/link';
 const ServicesSlider = () => {
     return (
         <Carousel controls={false}
-            style={{ backgroundImage: "url('https://1864597015.rsc.cdn77.org/selteqreact/Assets/Images/sel5.jpg')", height: '400px' }} className=' p-4'>
+            style={{ backgroundImage: "url('https://1864597015.rsc.cdn77.org/selteqreact/Assets/Images/sel5.jpg')", height: '400px' }} className='mb-4 p-4'>
             <Carousel.Item>
                 <div className='row text-light'>
                     <div className='col-4 h-100 d-flex align-items-center'>
