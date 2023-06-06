@@ -9,6 +9,7 @@ import Newfooter from '@/Components/Newfooter/Newfooter'
 import Newcontactus from '@/Components/Newcontactus/Newcontactus'
 import Contactus from '@/Components/MobileDesigns/Contactus/Contactus'
 import { useRouter } from 'next/router'
+import ChatBox from '@/Components/ChatBox'
 
 
 const ContactUs = () => {
@@ -42,6 +43,7 @@ const ContactUs = () => {
         
       </Head>
       <main className={styles.main_head}>
+        <ChatBox/>
         <div className='col-md-12 px-0 display_h'>
         <Newheader /> 
       <Newcontactus />
