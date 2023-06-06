@@ -3146,7 +3146,6 @@ video {
 
 
 
-
 .animated_button_banner {
   position: relative;
   display: inline-block;
@@ -3159,6 +3158,13 @@ video {
   border: none;
 }
 
+.animated_button_banner:hover{
+  background-color: black;
+  transition: black 0.5s linear;
+  color: white;
+  transition: 1s;
+}
+
 .animated_button_banner::before {
   content: '';
   position: absolute;
@@ -3166,9 +3172,9 @@ video {
   left: -100%;
   width: 100%;
   height: 100%;
-  background-color: rgba(102, 2, 2, 0.4);
+  background-color: rgba(102, 2, 2, 0.1);
   color: white;
-  transition: 0.8s;
+  transition: 0.9s;
 }
 
 .animated_button_banner:hover::before {
@@ -3208,3 +3214,11 @@ video {
 }
 
 
+a{
+  text-decoration: none !important;
+  color: #808080 !important;
+}
+
+.list_itm{
+  border-bottom: 2px solid lightgray;
+}

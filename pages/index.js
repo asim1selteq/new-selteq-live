@@ -12,6 +12,7 @@ import Videosec from '@/Components/Landingpage/Videosec'
 import Workflownew from '@/Components/Landingpage/Workflownew'
 import Letsconnect from '@/Components/Letsconnect/Letsconnect'
 import OurPartners from '@/Components/OurPartners/OurPartners'
+import ServicesSlider from '@/Components/ServicesSlider/ServicesSlider'
 
 // export async function getStaticProps() {
 //   const res = await fetch('https://jsonplaceholder.typicode.com/posts')
@@ -63,12 +64,16 @@ export default function Home({ posts }) {
           href="https://fonts.googleapis.com/css2?family=Ruda:wght@800&display=swap"
           rel="stylesheet"
         />
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"/>
+
       </Head>
       <main className={styles.main_height}>
         {/* <Header /> */}
         <Newheader />
         <Video />
         <Youdream />
+        <ServicesSlider/>
         <Webdevsec />
         <Parallex />
         <Videosec />

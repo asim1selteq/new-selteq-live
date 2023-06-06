@@ -510,18 +510,18 @@ export default function Newheader() {
 
                   <div class="dropbtn  pl-4 ">
                     <Link className="text_dec_link" href="/about-us">
-                      <span>About us</span>
+                      <span className="text-light">About us</span>
                     </Link>
                   </div>
 
                   <div class="dropbtn  pl-4 ">
                     <Link className="text_dec_link" href="/contact-us">
-                      <span>Contact us</span>
+                      <span className="text-light">Contact us</span>
                     </Link>
                   </div>
                   <div className="dropbtn  pl-4 ">
                     <Link className="text_dec_link" href="/blog">
-                      <span>Media</span>
+                      <span className="text-light">Media</span>
                     </Link>
                   </div>
                 </div>
