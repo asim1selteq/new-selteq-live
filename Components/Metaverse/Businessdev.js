@@ -20,7 +20,7 @@ function Businessdev() {
           <div className="row mb-5 pb-5">
             <div className="col-md-6 px-5 mb-5 pb-5">
               <div className="col-md-12 pt-3">
-              <p className="color_white mb-1 pt-0">Expertise and Experience</p>
+                <p className="color_white mb-1 pt-0">Expertise and Experience</p>
                 <p className="custom_paraa_font text-light">
                   With years of experience in software development and a deep
                   understanding of emerging technologies, our team possesses the
@@ -29,7 +29,7 @@ function Businessdev() {
                 </p>
               </div>
               <div className="col-md-12">
-              <p className="color_white1 mb-1 pt-0">Innovative Approach</p>
+                <p className="color_white1 mb-1 pt-0">Innovative Approach</p>
                 <p className="custom_paraa_font text-light">
                   We are passionate about pushing the boundaries of technology
                   and constantly exploring new possibilities within the
@@ -40,7 +40,7 @@ function Businessdev() {
             </div>
             <div className="col-md-6 px-5">
               <div className="col-md-12">
-              <p className="color_white mb-1 pt-3">
+                <p className="color_white mb-1 pt-3">
                   Customization and Collaboration
                 </p>
                 <p className="custom_paraa_font text-light">
@@ -51,8 +51,8 @@ function Businessdev() {
                 </p>
               </div>
               <div className="col-md-12">
-              <p className="color_white1 mb-1 pt-0">
-                 Embark on Your Metaverse Journey
+                <p className="color_white1 mb-1 pt-0">
+                  Embark on Your Metaverse Journey
                 </p>
                 <p className="custom_paraa_font text-light">
                   Unlock the boundless potential of the metaverse with our
@@ -66,11 +66,12 @@ function Businessdev() {
           <div className="col-md-12 text-center pt-5">
             <button
               onClick={() => contact()}
-              className="btn btn-danger btn-lg font_color_size py-2 animated_button_banner"
+              className="btn btn-danger btn-lg font_color_size py-2 px-5 animated_button_banner"
             >
-              {' '}
-              Book Consultation
-              <i id="arrow_icon" className="fas fa-arrow-right"></i>
+              <span class="button-text">BOOK CONSULTATION
+                <i id="arrow_icon" className="fas fa-arrow-right"></i>
+              </span>
+              <span class="animation-layer"></span>
             </button>
           </div>
         </div>

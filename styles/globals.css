@@ -3146,7 +3146,7 @@ video {
 
 
 
-.animated_button_banner {
+/* .animated_button_banner {
   position: relative;
   display: inline-block;
   padding: 25px 50px;
@@ -3179,11 +3179,11 @@ video {
 
 .animated_button_banner:hover::before {
   left: 0;
-}
+} */
 
 /* other button with background */
 
-.animated_button_with_bg {
+/* .animated_button_with_bg {
   position: relative;
   display: inline-block;
   padding: 25px 50px;
@@ -3199,8 +3199,6 @@ video {
 
 .animated_button_with_bg::before {
   content: '';
-  /* position: absolute; */
-  /* top: 0; */
   left: -100%;
   width: 100%;
   height: 100%;
@@ -3211,7 +3209,82 @@ video {
 
 .animated_button_with_bg:hover::before {
   left: 0;
+} */
+
+
+
+
+/* new background button hover */
+.animated_button_with_bg {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  border: none;
+  background-color: transparent;
+  padding: 10px 20px;
+  background-image: linear-gradient(to right,
+  rgb(169, 28, 23),
+  rgb(243, 28, 33),
+  rgb(169, 28, 23));  color: white;
+  font-size: 16px;  color: white;
+  font-size: 16px;
+  cursor: pointer;
 }
+
+.button-text {
+  position: relative;
+  z-index: 2;
+}
+
+.animation-layer {
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  transition: left 0.3s ease-in-out;
+}
+
+.animated_button_with_bg:hover .animation-layer {
+  left: 0;
+}
+
+
+
+/* new simple button hover */
+.animated_button_banner {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  border: none;
+  background-color: transparent;
+  padding: 10px 20px;
+  background-color: #f50404;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.button-text {
+  position: relative;
+  z-index: 2;
+}
+
+.animation-layer {
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  transition: left 0.3s ease-in-out;
+}
+
+.animated_button_banner:hover .animation-layer {
+  left: 0;
+}
+
 
 
 a{

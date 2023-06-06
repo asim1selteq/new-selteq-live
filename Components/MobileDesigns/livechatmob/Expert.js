@@ -62,7 +62,7 @@ function Expert() {
                 <p className='text_expert_paragraph px-3' >A multi-purpose Chat System to assist customers & service providers with real-time communication and deliver quick, personalized experiences.</p>
                 <div className='container px-5 pb-3'>
                     <div className='row'>
-                        <div className='col-md-4 col-4 text-center'  onMouseOver={() => setIsServiceCount(true)}>
+                        <div className='col-md-4 col-4 text-center' onMouseOver={() => setIsServiceCount(true)}>
                             <h2 className='mb-0 font_color_100'>100+</h2>
                             <p className=' text_below mt-0'>
                                 Services
@@ -150,13 +150,19 @@ function Expert() {
                 <img className='img-fluid' src='https://1864597015.rsc.cdn77.org/selteqreact/images/expertt.png' />
                 <p className='plexx mb-0'>EXPERT</p>
                 <p className='para_text_light'>A high-end CRM system for businesses of all sizes.</p>
-                <button onClick={() => plexarr()} className='btn animated_button_banner pt-0 py-2 danger_case mb-3'>CASE STUDY</button>
+                <button onClick={() => plexarr()} className='btn animated_button_banner pt-0 py-2 danger_case mb-3'>
+                    <span class="button-text">CASE STUDY</span>
+                    <span class="animation-layer"></span>
+                </button>
             </div>
             <div className='col-md-12 text-center pt-4 pb-5'>
                 <img className='img-fluid' src='https://1864597015.rsc.cdn77.org/selteqreact/images/chat.png' />
                 <p className='plexx mb-0'>Live Chat system</p>
                 <p className='para_text_light'>A multi-purpose Chat System for customers & service providers</p>
-                <button onClick={() => livechat()} className='btn animated_button_banner  pt-0 py-2 danger_case mb-5'>CASE STUDY</button>
+                <button onClick={() => livechat()} className='btn animated_button_banner  pt-0 py-2 danger_case mb-5'>
+                    <span class="button-text">CASE STUDY</span>
+                    <span class="animation-layer"></span>
+                </button>
             </div>
 
         </>
