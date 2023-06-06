@@ -73,7 +73,7 @@ export default function Home({ posts }) {
         <Newheader />
         <Video />
         <Youdream />
-        <ServicesSlider/>
+        {/* <ServicesSlider/> */}
         <Webdevsec />
         <Parallex />
         <Videosec />
