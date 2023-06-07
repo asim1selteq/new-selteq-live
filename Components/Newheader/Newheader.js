@@ -430,8 +430,8 @@ export default function Newheader() {
         />
       </Head>
       <main className={styles.main_head}>
-        <div className="col-md-12  background_header_new px-0">
-          <div className="container-fluid w-100">
+        <div className="col-md-12  background_header_new  px-0">
+          <div className="container-fluid w-100 display_h">
             <div className="row display_h">
               <div className="col-md-3 m-auto">
                 <Link href="/">
@@ -444,10 +444,10 @@ export default function Newheader() {
               </div>
               <div className="col-md-9 m-auto pr-4">
                 <div className="col-md-12 text-right flex_style_new ">
-                  <div class="dropdown">
+                  <div className="dropdown">
                     <div
                       style={{ height: "100%", position: "relative" }}
-                      class="dropbtn "
+                      className="dropbtn "
                       onMouseEnter={() => {
                         setOpenSoftwareMenu(true);
                       }}
@@ -461,10 +461,10 @@ export default function Newheader() {
                       )}
                     </div>
                   </div>
-                  <div class="dropdown pl-4">
+                  <div className="dropdown pl-4">
                     <div
                       style={{ height: "100%", position: "relative" }}
-                      class="dropbtn "
+                      className="dropbtn "
                       onMouseEnter={() => {
                         setSolutions(true);
                       }}
@@ -477,10 +477,10 @@ export default function Newheader() {
                     </div>
                   </div>
 
-                  <div class="dropdown pl-4">
+                  <div className="dropdown pl-4">
                     <div
                       style={{ height: "100%", position: "relative" }}
-                      class="dropbtn "
+                      className="dropbtn "
                       onMouseEnter={() => {
                         setIndustry(true);
                       }}
@@ -492,10 +492,10 @@ export default function Newheader() {
                       {industy && <div className={styles.crowBeak}></div>}
                     </div>
                   </div>
-                  <div class="dropdown pl-4">
+                  <div className="dropdown pl-4">
                     <div
                       style={{ height: "100%", position: "relative" }}
-                      class="dropbtn "
+                      className="dropbtn "
                       onMouseEnter={() => {
                         setCaseStudies(true);
                       }}
@@ -508,13 +508,13 @@ export default function Newheader() {
                     </div>
                   </div>
 
-                  <div class="dropbtn  pl-4 ">
+                  <div className="dropbtn  pl-4 ">
                     <Link className="text_dec_link" href="/about-us">
                       <span className="text-light">About us</span>
                     </Link>
                   </div>
 
-                  <div class="dropbtn  pl-4 ">
+                  <div className="dropbtn  pl-4 ">
                     <Link className="text_dec_link" href="/contact-us">
                       <span className="text-light">Contact us</span>
                     </Link>
@@ -599,10 +599,10 @@ export default function Newheader() {
                   </div>
                   <div className="col-md-8 col-8 text-right  ">
                     <button
-                      className="btn btn-dark btn_style_mobile"
+                      className="btn btn-light btn_style_mobile"
                       onClick={() => setNewnav(!newnav)}
                     >
-                      <i id="color_button" class="fas fa-times"></i>
+                      <i id="color_button" className="fas fa-times"></i>
                     </button>
                   </div>
                 </div>
@@ -624,7 +624,7 @@ export default function Newheader() {
                     {" "}
                     <h6>
                       {" "}
-                      <i class="fas fa-chevron-down"></i>
+                      <i className="fas fa-chevron-down"></i>
                     </h6>
                   </div>
                 </div>
@@ -648,7 +648,7 @@ export default function Newheader() {
                           {" "}
                           <h6>
                             {" "}
-                            <i class="fas fa-chevron-down"></i>
+                            <i className="fas fa-chevron-down"></i>
                           </h6>
                         </div>
                       </div>
@@ -702,7 +702,7 @@ export default function Newheader() {
                     {" "}
                     <h6>
                       {" "}
-                      <i class="fas fa-chevron-down"></i>
+                      <i className="fas fa-chevron-down"></i>
                     </h6>
                   </div>
                 </div>
@@ -735,7 +735,7 @@ export default function Newheader() {
                     {" "}
                     <h6>
                       {" "}
-                      <i class="fas fa-chevron-down"></i>
+                      <i className="fas fa-chevron-down"></i>
                     </h6>
                   </div>
                 </div>
@@ -767,7 +767,7 @@ export default function Newheader() {
                     {" "}
                     <h6>
                       {" "}
-                      <i class="fas fa-chevron-down"></i>
+                      <i className="fas fa-chevron-down"></i>
                     </h6>
                   </div>
                 </div>
@@ -851,10 +851,10 @@ export default function Newheader() {
                 </div>
                 <div className="col-md-8 col-8 text-right  ">
                   <button
-                    className="btn btn-dark btn_style_mobile"
+                    className="btn btn-light btn_style_mobile"
                     onClick={() => setNewnav(!newnav)}
                   >
-                    <i id="color_button" class="fas fa-bars"></i>
+                    <i id="color_button" className="fas fa-bars"></i>
                   </button>
                 </div>
               </div>

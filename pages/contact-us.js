@@ -9,21 +9,28 @@ import Newfooter from '@/Components/Newfooter/Newfooter'
 import Newcontactus from '@/Components/Newcontactus/Newcontactus'
 import Contactus from '@/Components/MobileDesigns/Contactus/Contactus'
 import { useRouter } from 'next/router'
-import ChatBox from '@/Components/ChatBox'
+import ZendeskChat from '@/Components/ZendeskChat'
+
+const ZENDESK_KEY = "d848880a-fdla-4d00-a24f-f2a7db538e45";
 
 
 const ContactUs = () => {
   const router = useRouter();
   const medical = () => {
-      router.push("/healthcare-and-medical")
+    router.push("/healthcare-and-medical")
   }
+
+  const handleLoaded = () => {
+    ZendeskAPI("messenger", "open");
+  };
+
   return (
     <div>
-        <Head>
+      <Head>
         <title>Got A Question? Our Experts Are Ready to Help | Selteq</title>
         <meta name="description" content="Discover the best-of-breed software solutions for your business. Whatever your business challenge, Selteq is here to help." />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        
+
         {/* Favicon icon  */}
         <link rel="icon" href="/favicon.ico" />
         {/* bootstrap v4.0.0 cdn  */}
@@ -40,20 +47,20 @@ const ContactUs = () => {
           integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
           crossorigin="anonymous"
         />
-        
+
       </Head>
       <main className={styles.main_head}>
-        <ChatBox/>
         <div className='col-md-12 px-0 display_h'>
-        <Newheader /> 
-      <Newcontactus />
-      <Newfooter/>
-      </div>
-      <div className='col-md-12 px-0 display_pc'>
-        <Newheader /> 
-      <Contactus />
-      <Newfooter/>
-      </div>
+          {/* <ZendeskChat/> */}
+          <Newheader />
+          <Newcontactus />
+          <Newfooter />
+        </div>
+        <div className='col-md-12 px-0 display_pc'>
+          <Newheader />
+          <Contactus />
+          <Newfooter />
+        </div>
 
       </main>
     </div>
